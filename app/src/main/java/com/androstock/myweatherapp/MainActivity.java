@@ -27,7 +27,7 @@ public class MainActivity extends AppCompatActivity {
     TextView selectCity, cityField, detailsField, currentTemperatureField, humidity_field, pressure_field, weatherIcon, updatedField;
     ProgressBar loader;
     Typeface weatherFont;
-    String city = "San Francisco, USA";
+    String city = "Ahmedabad, india";
     /* Please Put your API KEY here */
     String OPEN_WEATHER_MAP_API = "059aed0a2a1fd44d11a12f54554248bf";
     /* Please Put your API KEY here */
@@ -57,7 +57,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 //Uncomment the code below to pass the test
-                /*
+                
                 AlertDialog.Builder alertDialog = new AlertDialog.Builder(MainActivity.this);
                 alertDialog.setTitle("Change City");
                 final EditText input = new EditText(MainActivity.this);
@@ -82,7 +82,7 @@ public class MainActivity extends AppCompatActivity {
                             }
                         });
                 alertDialog.show();
-                */
+                
             }
         });
 
